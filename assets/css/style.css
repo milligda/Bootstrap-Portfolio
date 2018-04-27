@@ -24,6 +24,11 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
 p {
     line-height: 2em;    
     margin: 10px;
@@ -76,6 +81,29 @@ hr {
     max-width: 300px;
     float: left;
     padding: 5px 10px 3px 0px;
+}
+
+.thumbnail {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfolio-title {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.25em;
+    background-color: #4aaaa5;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.portfolio-title:hover {
+    background-color: #5E7F7E;
+    text-decoration: none;
+    color: #fff;
 }
 
 label {
